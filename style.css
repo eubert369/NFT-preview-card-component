@@ -1,0 +1,66 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 13px;
+    color: hsl(178, 100%, 50%);
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #ethereum {
+    width: 10px;
+  }
+
+  #clock {
+    width: 10px;
+  }
+
+  #avatar {
+    width: 25px;
+  }
+
+  #preview {
+    width: 30px;
+    display: none;
+  }
+
+  .card {
+    width: 16rem;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card-img-overlay:hover #preview {
+    display: block;
+  }
+
+  .card-img-overlay:hover {
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.5;
+  }
+
+  h1:hover {
+    color: hsl(178, 100%, 50%);
+  }
+
+  b:hover {
+    color: hsl(178, 100%, 50%);
+  }
